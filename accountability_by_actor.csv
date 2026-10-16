@@ -1,0 +1,11 @@
+actor_type,Firm,Not stated,Regulator,Senior manager (named individual),Shared: firm + vendor,Vendor
+Academic,0,0,3,0,0,1
+Bank,1,1,0,0,0,0
+Civil society,0,0,0,1,0,0
+Industry body,2,0,0,0,2,0
+Insurer,2,0,0,0,0,0
+Law firm,0,0,0,0,1,0
+Professional services,1,0,0,0,0,0
+Regulator,2,0,0,0,0,0
+Tech provider,2,0,0,0,0,0
+Trade union,1,0,0,0,0,0
