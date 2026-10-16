@@ -4,7 +4,7 @@ Who do regulators, banks, tech providers, academics and consumer groups say shou
 
 This repository codes the written evidence submitted to the House of Commons Treasury Committee's 2025–26 inquiry into AI in financial services and maps where each type of actor places responsibility. It is an independent project alongside my undergraduate dissertation at the University of Bristol, which studies the same inquiry.
 
-**Live map:** https://YOUR-USERNAME.github.io/ai-accountability-evidence-map/
+**Live map:** https://archit-kgupta.github.io/ai-accountability-map/
 
 ## Method
 - Source: published written evidence on the Treasury Committee website (secondary data).
