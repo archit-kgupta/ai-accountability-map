@@ -9,7 +9,7 @@ This repository codes the written evidence submitted to the House of Commons Tre
 ## Method
 - Source: published written evidence on the Treasury Committee website (secondary data).
 - Each submission is coded against a fixed codebook ([codebook.md](codebook.md)): actor type, primary and secondary accountable party, and whether existing rules (e.g. SM&CR, Consumer Duty) are judged sufficient.
-- Analysis: `analyse.py` (Python, pandas, matplotlib) cross-tabulates the codes and builds the charts and the filterable map in `docs/`.
+- Analysis: `analyse.py` (Python, pandas, matplotlib) cross-tabulates the codes and builds the charts and the filterable map in `index.html`.
 
 ## Early findings
 20 of the 82 published submissions coded so far:
