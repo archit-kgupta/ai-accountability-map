@@ -28,7 +28,7 @@ Derived from actor_type by `analyse.py`; do not code it by hand. actor_type is k
 | Public-interest and independent | Consumer body · Civil society · Academic · Think tank · Trade union |
 | Tech, AI provider or consultancy (outside core groups) | Tech provider · Professional services · Law firm · Other |
 
-- Boundary case: Mastercard (AIFS0048) keeps actor_type Tech provider but is grouped as Industry (a payment network inside the financial-services perimeter).
+- Actor type decides the group: every Tech provider, Professional services firm or consultancy goes in the Tech, AI provider or consultancy category, whatever sector it serves.
 - Tech and AI providers and consultancies are outside the SM&CR perimeter, so they are a separate category and are left out of the group comparison. Their absence is a stated limitation.
 
 ## Oral evidence
@@ -37,7 +37,7 @@ The four oral evidence sessions are listed in `oral_evidence.csv` with links to 
 ## primary_accountable / secondary_accountable
 | Code | Use when the submission places accountability for AI-assisted decisions on… |
 |---|---|
-| Senior manager (named individual) | a named individual, e.g. a senior manager under SM&CR or a nominated board member or senior person |
+| Senior manager (named individual) | a specific individual role: a named senior manager or SMF holder, or a single nominated board member or senior person. If the submission offers a choice between an individual and a committee, code Board |
 | Board | the board or senior management as a collective |
 | Firm | the deploying firm as an institution (its governance, risk management, human oversight) |
 | Shared: firm + vendor | firms and AI, data or cloud providers, split along the supply chain |
@@ -54,7 +54,7 @@ The four oral evidence sessions are listed in `oral_evidence.csv` with links to 
 - A critique of SM&CR's focus on one individual is still coded Senior manager (named individual), because that is the locus being argued about; record the critique in notes.
 - Pension trustees and trustee boards are coded Board.
 
-**Secondary** is the next party the submission names, usually the one it asks to act (for example, to clarify liability). Leave it blank if there is none.
+**Secondary** is the next party on whom the submission takes a position, using the same test as primary: it says that party is or should be responsible, or prescribes what it must do. Listing a framework among existing rules (for example, citing SM&CR) is not a position. Leave it blank if no second party meets the test.
 
 ## current_rules_enough
 This covers **financial services regulation** only (SM&CR, Consumer Duty, prudential rules, etc.).
@@ -78,3 +78,7 @@ Copy quotes exactly. Mark omissions with "…", put clarifying words in [square 
 ## Free-text columns
 - key_argument: one sentence, in your own words
 - notes: anything a reader needs to judge the code
+
+## Change log
+
+13 November 2026: Secondary codes now need a position, not a mention (FCA and FIA recoded blank; CII to Board). Senior manager limited to a specific individual role; individual-or-committee choices coded Board (UKSIF recoded to Board). Actor group follows actor type (Mastercard moved to the Tech category). All 82 rows re-checked against the revised secondary rule, which also changed three further rows: Martins Pereira (AIFS0079) and Sutton & Williams (AIFS0076) secondary to blank, and the Electronic Money Association (AIFS0062) secondary from Vendor to Regulator.

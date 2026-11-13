@@ -31,7 +31,7 @@ GROUP_OF_TYPE = {
     "Other": OUTSIDE,
 }
 # Boundary cases decided by submitter rather than by actor_type (documented in codebook.md)
-GROUP_OVERRIDE = {"AIFS0048": INDUSTRY}  # Mastercard: payment network, grouped with FS firms
+GROUP_OVERRIDE = {}  # none: actor type decides the group (see codebook.md)
 
 
 def actor_group(row):

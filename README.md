@@ -13,10 +13,10 @@ This repository codes the written and oral evidence submitted to the House of Co
 - Analysis: `analyse.py` (Python, pandas, matplotlib) cross-tabulates the codes and builds the charts and the filterable map in `index.html` (served by GitHub Pages from the repository root). Tech providers and consultancies are a separate category outside the three groups.
 
 ## Early findings
-All 82 published written submissions are coded (61 in the three core groups, 21 outside them):
-- **Institutional, not individual, accountability.** 33 of 82 place primary accountability on the firm as an institution and 27 do not say who is accountable. Only 5 point first to a named senior manager, and two of those (City of London Corporation, Innovate Finance) do so to criticise how the SM&CR concentrates AI risk on one person.
-- **Many hands is the recurring worry.** 15 submissions code the AI vendor as primary or secondary, or call accountability shared between firm and vendor. Several say firms carry obligations they cannot enforce on much larger AI providers.
-- **Existing rules are broadly accepted by industry.** 12 of 28 industry submissions say existing financial rules are enough and only 1 says no. Among public-interest and independent contributors, 1 says yes and 6 say no.
+All 82 published written submissions are coded (60 in the three core groups, 22 outside them):
+- **Institutional, not individual, accountability.** 33 of 82 place primary accountability on the firm as an institution and 27 do not say who is accountable. Only 4 point first to a named individual, and two of those (City of London Corporation, Innovate Finance) do so to criticise how the SM&CR concentrates AI risk on one person.
+- **Many hands is the recurring worry.** 13 submissions code the AI vendor as primary or secondary, or call accountability shared between firm and vendor. Several say firms carry obligations they cannot enforce on much larger AI providers.
+- **Existing rules are broadly accepted by industry.** 12 of 27 industry submissions (12 of the 20 that take a position) say existing financial rules are enough and only 1 says no. Among public-interest and independent contributors, 1 of 31 (1 of the 18 that take a position) says yes and 6 say no.
 - **Accountability is rarely central.** 66 of 82 discuss it only briefly.
 
 ## Run it
